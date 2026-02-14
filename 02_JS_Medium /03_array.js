@@ -18,5 +18,5 @@ console.log(arr4);
 
 console.log(Array.from({1:'JS'})) //[] empty array we not specified wheather we want to create an obj from key or value
 
-arr4 = Array.of(123)
+arr4 = Array.of(123, "POWER")
 console.log(arr4);
