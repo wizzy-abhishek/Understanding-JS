@@ -10,3 +10,13 @@ console.log(arr3);
 
 arr3 = arr3.flat(Infinity)
 console.log(arr3);
+
+console.log(Array.isArray("Abhishek"))
+
+arr4 = Array.from("Abhishek")
+console.log(arr4);
+
+console.log(Array.from({1:'JS'})) //[] empty array we not specified wheather we want to create an obj from key or value
+
+arr4 = Array.of(123)
+console.log(arr4);
