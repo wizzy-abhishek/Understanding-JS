@@ -24,4 +24,11 @@ console.log(user[mySymbol]);
 
 console.log(user["full name"]);
 
+user.greeting = function(){
+    console.log(`Hello, ${this["full name"]}`);
+}
+user.greeting()
+
 Object.freeze(user) // Now the user object is final
+
+console.log(user);
